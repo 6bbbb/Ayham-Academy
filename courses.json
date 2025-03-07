@@ -1,0 +1,29 @@
+{
+  "courses": [
+    {
+      "title": "Introduction",
+      "lessons": [
+        {
+          "title": "001 Welcome To The Course",
+          "video": "https://www.dropbox.com/scl/fi/8qml5r5cw5nksudwk907t/001-Welcome-To-The-Course.mp4?rlkey=b3fjz2lah6f057bfp1weii08e&st=rv9kcgm6&raw=1",
+          "completed": false
+        },
+        {
+          "title": "002 How The Web Works (Summarized)",
+          "video": "https://www.dropbox.com/scl/fi/jjec6rh6mcg633j5s1hqe/002-How-The-Web-Works-Summarized.mp4?rlkey=8xvtw6is5ynl4nhrooh2he1iw&st=v3c8oki9&raw=1",
+          "completed": false
+        },
+        {
+          "title": "003 The Roles Of HTML & CSS In Web Developme",
+          "video": "https://www.dropbox.com/scl/fi/3tq6ywvp5i0couui3tu8h/003-The-Roles-Of-HTML-CSS-In-Web-Development.mp4?rlkey=hwuov58wlbea1isme77riwpaf&st=qfojuild&dl=0",
+          "completed": false
+        },
+        {
+          "title": "004 Getting Setup With Visual Studio Code",
+          "video": "https://www.dropbox.com/scl/fi/pkekbagz0bw81eyaoeuz5/004-Getting-Setup-With-Visual-Studio-Code.mp4?rlkey=3tfqn8j1rq6x9ahw322ykd9f9&st=uiks1opj&raw=1",
+          "completed": false
+        }
+      ]
+    }
+  ]
+}

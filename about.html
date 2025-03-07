@@ -1,0 +1,112 @@
+<!-- ضع هذا الكود قبل قسم الدورات مباشرة -->
+<section class="about-developer">
+    <div class="container">
+        <div class="developer-profile">
+            <!-- استبدل رابط الصورة بصورتك الشخصية -->
+            <img src="img/aboutimg.png" alt="صورة المطور" class="developer-img">
+            
+            <div class="developer-info">
+                <h2 class="developer-name">  أيهم / جهاد</h2>
+                <p class="developer-bio">
+                    مطور واجهات مستخدم وخبير تجربة مستخدم مع خبرة تزيد عن 5 سنوات في مجال تطوير الويب.
+                    <br><br>
+                    أسست أكاديمية أيهم بهدف مشاركة المعرفة وتقديم محتوى تعليمي عالي الجودة باللغة العربية.
+                    <br><br>
+                    أحب تصميم واجهات مستخدم جميلة وبسيطة مع التركيز على تجربة المستخدم المثالية.
+                </p>
+                
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- أضف هذا الستايل في قسم الـ style -->
+<style>
+    .about-developer {
+        background: white;
+        padding: 60px 0;
+    }
+
+    .developer-profile {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .developer-img {
+        width: 350px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    .developer-info {
+        flex: 1;
+    }
+
+    .developer-name {
+        color: #2c3e50;
+        font-size: 2.2em;
+        margin-bottom: 25px;
+        position: relative;
+        padding-bottom: 15px;
+    }
+
+    .developer-name::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 80px;
+        height: 3px;
+        background: #3498db;
+    }
+
+    .developer-bio {
+        color: #666;
+        line-height: 1.8;
+        font-size: 1.1em;
+        margin-bottom: 30px;
+    }
+
+    .social-links {
+        display: flex;
+        gap: 20px;
+    }
+
+    .social-icon {
+        color: #3498db;
+        font-size: 24px;
+        transition: all 0.3s ease;
+    }
+
+    .social-icon:hover {
+        color: #2980b9;
+        transform: translateY(-3px);
+    }
+
+    @media (max-width: 768px) {
+        .developer-profile {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .developer-name::after {
+            right: 50%;
+            transform: translateX(50%);
+        }
+
+        .developer-img {
+            width: 250px;
+        }
+    }
+</style>
+
+<!-- أضف هذا الرابط في قسم الـ head لأيقونات السوشيال ميديا -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">

@@ -1,0 +1,14 @@
+{
+  "courses": [
+    {
+      "title": "FLutter APP U1",
+      "lessons": [
+        {
+          "title": "تطوير التطبيق",
+          "video": "https://www.dropbox.com/scl/fi/odjpu85jzl2ivgg71zcg2/APP_Tutorial.mp4?rlkey=hj4cbk6ul1smmtv12efjb7s54&st=693o9cnh&raw=1",
+          "completed": false
+        }
+      ]
+    }
+  ]
+}
